@@ -18,11 +18,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Stavya Srinath — Robotics Engineer & Student Leader",
-  description: "Stavya Srinath is a student robotics engineer focused on electrical systems, autonomous hardware, technical leadership, and STEM education.",
+  description:
+    "Stavya Srinath is a student robotics engineer focused on electrical systems, autonomous hardware, technical leadership, and STEM education.",
   authors: [{ name: "Stavya Srinath" }],
   creator: "Stavya Srinath",
   publisher: "Stavya Srinath",
   robots: "index, follow",
+  alternates: {
+    canonical: "/",
+  },
   verification: {
     google: "9o3wrNB8jjOorDEpkY12oCN5U7Va05ZqA7xkmY0Cua8",
   },
@@ -32,12 +36,14 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "Stavya Srinath",
     title: "Stavya Srinath — Robotics Engineer & Student Leader",
-    description: "Stavya Srinath is a student robotics engineer focused on electrical systems, autonomous hardware, technical leadership, and STEM education.",
+    description:
+      "Stavya Srinath is a student robotics engineer focused on electrical systems, autonomous hardware, technical leadership, and STEM education.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Stavya Srinath — Robotics Engineer & Student Leader",
-    description: "Stavya Srinath is a student robotics engineer focused on electrical systems, autonomous hardware, technical leadership, and STEM education.",
+    description:
+      "Stavya Srinath is a student robotics engineer focused on electrical systems, autonomous hardware, technical leadership, and STEM education.",
   },
   icons: {
     icon: "/favicon.svg",
